@@ -1,0 +1,29 @@
+{
+  "legalName": "Công ty TNHH TM&DV Du Lịch Tự Do",
+  "legalNameEn": "Tu Do Travel Trading and Service Company Limited",
+  "legalNameAbbr": "TDTV Co., Ltd",
+  "taxID": "0310457526",
+  "foundingDate": "2010-11-17",
+  "businessLicense": {
+    "number": "0310457526",
+    "issuer": "Sở Kế Hoạch và Đầu Tư Thành Phố Hồ Chí Minh",
+    "issueDate": "2010-11-17"
+  },
+  "travelLicense": {
+    "type": "Lữ hành Quốc tế",
+    "number": "79-1032/2019/TCDL-GP LHQT",
+    "issuer": "Bộ Văn hóa, Thể thao và Du lịch — Tổng cục Du lịch",
+    "issueDate": "2019-05-03"
+  },
+  "address": {
+    "streetAddress": "Lầu 4, 102D Lê Thị Riêng, Phường Bến Thành",
+    "addressLocality": "TP. Hồ Chí Minh",
+    "addressLocalityShort": "TP.HCM",
+    "addressCountry": "VN"
+  },
+  "privacyContactEmail": "support@dulichtudo.vn",
+  "dataProtectionLaw": {
+    "name": "Luật Bảo vệ dữ liệu cá nhân số 91/2025/QH15",
+    "effectiveDate": "2026-01-01"
+  }
+}
