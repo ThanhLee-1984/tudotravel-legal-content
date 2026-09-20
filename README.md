@@ -12,6 +12,7 @@ lệch nhau giữa các site.
 | File | Vai trò |
 |---|---|
 | [`company-profile.json`](./company-profile.json) | Dữ liệu doanh nghiệp đã xác nhận qua audit Task-167/170 của `visamy-us-hub`. Đây là nguồn dùng chung. |
+| [`contact-channels.json`](./contact-channels.json) | 4 kênh chat (Zalo OA, Messenger, Viber, WhatsApp) dùng chung cho mọi site quốc gia. Xem mục [Kênh chat dùng chung](#kênh-chat-dùng-chung-contact-channelsjson). |
 | [`TEMPLATE-tuyen-bo-phap-ly.md`](./TEMPLATE-tuyen-bo-phap-ly.md) | Hướng dẫn viết 3 tuyên bố pháp lý bắt buộc (quyền lợi khách hàng, bảo vệ dữ liệu cá nhân, tuân thủ pháp luật) cho một site quốc gia mới. |
 
 ## Cách site mới lấy dữ liệu
@@ -52,6 +53,44 @@ Gợi ý khi tích hợp:
   này thay đổi ngoài ý muốn: thay `main` trong URL bằng SHA của commit.
 - Không lưu bản sao JSON vào code của site rồi sửa tay; nếu cần sửa, sửa ở repo
   này.
+
+## Kênh chat dùng chung (`contact-channels.json`)
+
+`contact-channels.json` giữ **4 kênh chat** mà khách dùng để liên hệ Tự Do Travel:
+Zalo OA, Facebook Messenger, Viber và WhatsApp.
+
+Bốn kênh này **dùng chung cho MỌI site Visa Hub quốc gia**, không tách theo quốc gia
+(quyết định 19/09/2026): khách nhắn vào cùng một Zalo OA / Messenger / Viber /
+WhatsApp bất kể họ vào site Mỹ, Canada hay nước khác.
+
+**Hotline KHÔNG nằm trong file này.** Hotline là giá trị riêng của từng site, cấu
+hình qua biến môi trường `NEXT_PUBLIC_HOTLINE` của site đó.
+
+| Field | Dùng cho |
+|---|---|
+| `zaloOaId` | ID Zalo Official Account — dùng cho thuộc tính `data-oaid` của widget Zalo |
+| `zaloOaUrl` | Link mở chat Zalo OA |
+| `messengerUrl` | Link `m.me` mở chat Facebook Messenger |
+| `viberUrl` | Link mở chat Viber |
+| `whatsappUrl` | Link mở chat WhatsApp |
+
+Cách fetch **giống hệt** `company-profile.json`: fetch ở **build time**, trong
+**server component**, không fetch phía client.
+
+```
+https://raw.githubusercontent.com/ThanhLee-1984/tudotravel-legal-content/main/contact-channels.json
+```
+
+### Site nào fetch trực tiếp, site nào không
+
+- **`visamy-us-hub` (site Mỹ, site đầu tiên) — CHƯA fetch trực tiếp từ đây.** Site
+  này đang chạy production thật trên `visamy.com.vn`; không thêm phụ thuộc mạng
+  ngoài vào một site đang chạy. Site Mỹ **giữ giá trị local và đồng bộ tay** với
+  file này mỗi khi giá trị thay đổi.
+- **Các site quốc gia SAU (từ Canada trở đi) — fetch trực tiếp từ đây.**
+
+Hệ quả: khi sửa bất kỳ kênh chat nào trong file này, phải **sửa tay cả bản local của
+site Mỹ** rồi redeploy, chứ không chỉ sửa ở repo này.
 
 ## Khi công ty đổi thông tin
 
