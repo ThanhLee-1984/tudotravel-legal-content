@@ -102,8 +102,14 @@ site Mỹ** rồi redeploy, chứ không chỉ sửa ở repo này.
 3. Sau khi redeploy, kiểm tra thực tế trang pháp lý và footer của từng site (không
    chỉ dựa vào việc build xanh).
 
-Danh sách site cần redeploy khi đổi dữ liệu: mọi site Visa Hub đang dùng repo này
-(hiện có `visamy.com.vn`). Cập nhật danh sách khi có site mới.
+Danh sách site cần redeploy khi đổi dữ liệu: mọi site Visa Hub đang dùng repo này.
+Cập nhật danh sách khi có site mới.
+
+- `visamy.com.vn` — site Mỹ (đồng bộ tay, xem mục trên).
+- `visa-anh.com` — site Anh, repo `visa-uk-hub`, Vercel project `visa-uk-hub` (go-live
+  29/09/2026). Fetch `company-profile.json` + `contact-channels.json` lúc build
+  (`scripts/sync-legal-content.ts`, lỗi/lệch → chặn build). Redeploy trên Vercel là lấy
+  bản mới; sau đó commit bản chụp `data/legal/*.json` vào repo site.
 
 ## Lưu ý
 
