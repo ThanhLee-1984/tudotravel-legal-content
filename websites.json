@@ -43,6 +43,15 @@
       "nameVi": "Visa Anh",
       "nameEn": "UK Visa",
       "launched": "2026-09-29"
+    },
+    {
+      "domain": "visa-halan.com",
+      "url": "https://visa-halan.com",
+      "type": "visa-country",
+      "country": "NL",
+      "nameVi": "Visa Hà Lan",
+      "nameEn": "Netherlands Visa",
+      "launched": "2026-09-30"
     }
   ]
 }

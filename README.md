@@ -133,6 +133,8 @@ Cập nhật danh sách khi có site mới.
   29/09/2026). Fetch `company-profile.json` + `contact-channels.json` lúc build
   (`scripts/sync-legal-content.ts`, lỗi/lệch → chặn build). Redeploy trên Vercel là lấy
   bản mới; sau đó commit bản chụp `data/legal/*.json` vào repo site.
+- `visa-halan.com` — site Hà Lan, repo `visa-halan-hub`, Vercel project `visa-halan-hub`
+  (go-live 30/09/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 
