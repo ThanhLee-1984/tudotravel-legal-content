@@ -13,6 +13,7 @@ lệch nhau giữa các site.
 |---|---|
 | [`company-profile.json`](./company-profile.json) | Dữ liệu doanh nghiệp đã xác nhận qua audit Task-167/170 của `visamy-us-hub`. Đây là nguồn dùng chung. |
 | [`contact-channels.json`](./contact-channels.json) | 4 kênh chat (Zalo OA, Messenger, Viber, WhatsApp) dùng chung cho mọi site quốc gia. Xem mục [Kênh chat dùng chung](#kênh-chat-dùng-chung-contact-channelsjson). |
+| [`websites.json`](./websites.json) | Danh sách website của Tự Do Travel **đã chạy thật** + tên miền chính của công ty + tên miền email dùng chung. Xem mục [Danh sách website](#danh-sách-website-websitesjson). |
 | [`TEMPLATE-tuyen-bo-phap-ly.md`](./TEMPLATE-tuyen-bo-phap-ly.md) | Hướng dẫn viết 3 tuyên bố pháp lý bắt buộc (quyền lợi khách hàng, bảo vệ dữ liệu cá nhân, tuân thủ pháp luật) cho một site quốc gia mới. |
 
 ## Cách site mới lấy dữ liệu
@@ -91,6 +92,28 @@ https://raw.githubusercontent.com/ThanhLee-1984/tudotravel-legal-content/main/co
 
 Hệ quả: khi sửa bất kỳ kênh chat nào trong file này, phải **sửa tay cả bản local của
 site Mỹ** rồi redeploy, chứ không chỉ sửa ở repo này.
+
+## Danh sách website (`websites.json`)
+
+Danh sách website của Tự Do Travel **đã go-live** (anh Thạnh duyệt 30/09/2026), dùng cho:
+trang "Hệ thống website Tự Do Travel" trên từng site, schema `parentOrganization`, và
+liên kết giữa các site theo quy tắc `docs/nhan-ban/LIEN-KET-MANG-LUOI.md` của repo
+`visa-hub-template`.
+
+| Field | Ý nghĩa |
+|---|---|
+| `company.url`, `company.primaryDomain` | Website chính của công ty: **dulichtudo.vn** |
+| `company.otherDomains` | Tên miền khác của công ty (dulichtudo.com) |
+| `company.emailDomain` | **Mọi site chỉ dùng email liên hệ trên `dulichtudo.vn`** (nhất quán; anh Thạnh chốt 30/09/2026) — không dùng email theo tên miền của từng site |
+| `sites[]` | Mỗi site: `domain` (đúng host chính, có/không `www`), `url`, `type` (`visa-country`…), `country` (ISO), `nameVi`, `nameEn`, `launched` (ngày go-live) |
+
+Quy tắc:
+
+- **Chỉ thêm site khi đã go-live** trên tên miền chính (Phiên 10 của site) — repo này
+  public, không đưa site đang dựng hay tên miền chưa dùng.
+- Site đổi tên miền chính → sửa `domain` + `url`, tên miền cũ không ghi vào đây (chỉ 301).
+- Chưa site nào fetch file này (30/09/2026). Khi khung `visa-hub-template` bắt đầu dùng,
+  sai định dạng sẽ chặn build giống 2 file trên.
 
 ## Khi công ty đổi thông tin
 

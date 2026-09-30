@@ -1,0 +1,48 @@
+{
+  "_note": "Danh sách website của Tự Do Travel ĐÃ CHẠY THẬT trên tên miền chính (anh Thạnh duyệt 30/09/2026). Chỉ thêm 1 site khi site đó go-live — không đưa site đang dựng hay tên miền chưa dùng. Dùng cho: trang 'Hệ thống website Tự Do Travel', schema parentOrganization, liên kết giữa các site theo quy tắc LIEN-KET-MANG-LUOI (repo visa-hub-template, docs/nhan-ban). Email liên hệ trên MỌI site chỉ dùng tên miền company.emailDomain.",
+  "company": {
+    "brandName": "Tự Do Travel",
+    "url": "https://dulichtudo.vn",
+    "primaryDomain": "dulichtudo.vn",
+    "otherDomains": ["dulichtudo.com"],
+    "emailDomain": "dulichtudo.vn"
+  },
+  "sites": [
+    {
+      "domain": "www.visamy.com.vn",
+      "url": "https://www.visamy.com.vn",
+      "type": "visa-country",
+      "country": "US",
+      "nameVi": "Visa Mỹ",
+      "nameEn": "US Visa",
+      "launched": "2026-09-16"
+    },
+    {
+      "domain": "visa-canada.vn",
+      "url": "https://visa-canada.vn",
+      "type": "visa-country",
+      "country": "CA",
+      "nameVi": "Visa Canada",
+      "nameEn": "Canada Visa",
+      "launched": "2026-09-27"
+    },
+    {
+      "domain": "visa-phap.com",
+      "url": "https://visa-phap.com",
+      "type": "visa-country",
+      "country": "FR",
+      "nameVi": "Visa Pháp",
+      "nameEn": "France Visa",
+      "launched": "2026-09-27"
+    },
+    {
+      "domain": "visa-anh.com",
+      "url": "https://visa-anh.com",
+      "type": "visa-country",
+      "country": "GB",
+      "nameVi": "Visa Anh",
+      "nameEn": "UK Visa",
+      "launched": "2026-09-29"
+    }
+  ]
+}
