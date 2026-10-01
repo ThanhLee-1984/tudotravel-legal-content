@@ -135,6 +135,8 @@ Cập nhật danh sách khi có site mới.
   bản mới; sau đó commit bản chụp `data/legal/*.json` vào repo site.
 - `visa-halan.com` — site Hà Lan, repo `visa-halan-hub`, Vercel project `visa-halan-hub`
   (go-live 30/09/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visa-duc.com` — site Đức, repo `visa-duc-hub`, Vercel project `visa-duc-hub`
+  (go-live 01/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 

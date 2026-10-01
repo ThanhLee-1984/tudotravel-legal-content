@@ -52,6 +52,15 @@
       "nameVi": "Visa Hà Lan",
       "nameEn": "Netherlands Visa",
       "launched": "2026-09-30"
+    },
+    {
+      "domain": "visa-duc.com",
+      "url": "https://visa-duc.com",
+      "type": "visa-country",
+      "country": "DE",
+      "nameVi": "Visa Đức",
+      "nameEn": "Germany Visa",
+      "launched": "2026-10-01"
     }
   ]
 }
