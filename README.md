@@ -139,6 +139,8 @@ Cập nhật danh sách khi có site mới.
   (go-live 01/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visaitaly.com.vn` — site Ý, repo `visa-italy-hub`, Vercel project `visa-italy-hub`
   (go-live 01/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visataybannha.com` — site Tây Ban Nha, repo `visa-taybannha-hub`, Vercel project
+  `visa-taybannha-hub` (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 

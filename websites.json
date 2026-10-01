@@ -70,6 +70,15 @@
       "nameVi": "Visa Ý",
       "nameEn": "Italy Visa",
       "launched": "2026-10-01"
+    },
+    {
+      "domain": "visataybannha.com",
+      "url": "https://visataybannha.com",
+      "type": "visa-country",
+      "country": "ES",
+      "nameVi": "Visa Tây Ban Nha",
+      "nameEn": "Spain Visa",
+      "launched": "2026-10-02"
     }
   ]
 }
