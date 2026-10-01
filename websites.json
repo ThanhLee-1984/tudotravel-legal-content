@@ -61,6 +61,15 @@
       "nameVi": "Visa Đức",
       "nameEn": "Germany Visa",
       "launched": "2026-10-01"
+    },
+    {
+      "domain": "visaitaly.com.vn",
+      "url": "https://visaitaly.com.vn",
+      "type": "visa-country",
+      "country": "IT",
+      "nameVi": "Visa Ý",
+      "nameEn": "Italy Visa",
+      "launched": "2026-10-01"
     }
   ]
 }
