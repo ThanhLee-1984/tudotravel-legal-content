@@ -88,6 +88,15 @@
       "nameVi": "Visa Bỉ",
       "nameEn": "Belgium Visa",
       "launched": "2026-10-02"
+    },
+    {
+      "domain": "visanauy.com",
+      "url": "https://visanauy.com",
+      "type": "visa-country",
+      "country": "NO",
+      "nameVi": "Visa Na Uy",
+      "nameEn": "Norway Visa",
+      "launched": "2026-10-02"
     }
   ]
 }

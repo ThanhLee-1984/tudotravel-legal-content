@@ -143,6 +143,8 @@ Cập nhật danh sách khi có site mới.
   `visa-taybannha-hub` (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visa-bi.com` — site Bỉ, repo `visa-bi-hub`, Vercel project `visa-bi-hub`
   (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visanauy.com` — site Na Uy, repo `visa-nauy-hub`, Vercel project `visa-nauy-hub`
+  (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 
