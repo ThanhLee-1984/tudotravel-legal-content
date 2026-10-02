@@ -79,6 +79,15 @@
       "nameVi": "Visa Tây Ban Nha",
       "nameEn": "Spain Visa",
       "launched": "2026-10-02"
+    },
+    {
+      "domain": "visa-bi.com",
+      "url": "https://visa-bi.com",
+      "type": "visa-country",
+      "country": "BE",
+      "nameVi": "Visa Bỉ",
+      "nameEn": "Belgium Visa",
+      "launched": "2026-10-02"
     }
   ]
 }
