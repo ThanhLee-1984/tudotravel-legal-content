@@ -97,6 +97,15 @@
       "nameVi": "Visa Na Uy",
       "nameEn": "Norway Visa",
       "launched": "2026-10-02"
+    },
+    {
+      "domain": "visathuydien.com",
+      "url": "https://visathuydien.com",
+      "type": "visa-country",
+      "country": "SE",
+      "nameVi": "Visa Thụy Điển",
+      "nameEn": "Sweden Visa",
+      "launched": "2026-10-03"
     }
   ]
 }
