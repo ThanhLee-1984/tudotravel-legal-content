@@ -106,6 +106,15 @@
       "nameVi": "Visa Thụy Điển",
       "nameEn": "Sweden Visa",
       "launched": "2026-10-03"
+    },
+    {
+      "domain": "visa-uc.com",
+      "url": "https://visa-uc.com",
+      "type": "visa-country",
+      "country": "AU",
+      "nameVi": "Visa Úc",
+      "nameEn": "Australia Visa",
+      "launched": "2026-10-05"
     }
   ]
 }
