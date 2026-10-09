@@ -151,6 +151,8 @@ Cập nhật danh sách khi có site mới.
   (go-live 05/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visa-nhatban.com.vn` — site Nhật Bản, repo `visa-nhatban-hub`, Vercel project
   `visa-nhatban-hub` (go-live 09/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visahanquoc.com.vn` — site Hàn Quốc, repo `visa-hanquoc-hub`, Vercel project
+  `visa-hanquoc-hub` (go-live 10/10/2026; tên miền cũ `visa-hanquoc.com` 301 về đây). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 

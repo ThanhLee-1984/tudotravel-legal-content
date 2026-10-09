@@ -124,6 +124,15 @@
       "nameVi": "Visa Nhật Bản",
       "nameEn": "Japan Visa",
       "launched": "2026-10-09"
+    },
+    {
+      "domain": "visahanquoc.com.vn",
+      "url": "https://visahanquoc.com.vn",
+      "type": "visa-country",
+      "country": "KR",
+      "nameVi": "Visa Hàn Quốc",
+      "nameEn": "Korea Visa",
+      "launched": "2026-10-10"
     }
   ]
 }
