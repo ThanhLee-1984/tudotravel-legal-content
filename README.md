@@ -149,6 +149,8 @@ Cập nhật danh sách khi có site mới.
   `visa-thuydien-hub` (go-live 03/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visa-uc.com` — site Úc, repo `visa-uc-hub`, Vercel project `visa-uc-hub`
   (go-live 05/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visa-nhatban.com.vn` — site Nhật Bản, repo `visa-nhatban-hub`, Vercel project
+  `visa-nhatban-hub` (go-live 09/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 

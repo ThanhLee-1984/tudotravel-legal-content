@@ -115,6 +115,15 @@
       "nameVi": "Visa Úc",
       "nameEn": "Australia Visa",
       "launched": "2026-10-05"
+    },
+    {
+      "domain": "visa-nhatban.com.vn",
+      "url": "https://visa-nhatban.com.vn",
+      "type": "visa-country",
+      "country": "JP",
+      "nameVi": "Visa Nhật Bản",
+      "nameEn": "Japan Visa",
+      "launched": "2026-10-09"
     }
   ]
 }
