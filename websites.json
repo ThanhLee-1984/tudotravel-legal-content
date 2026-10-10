@@ -151,6 +151,15 @@
       "nameVi": "Visa Trung Quốc",
       "nameEn": "China Visa",
       "launched": "2026-10-10"
+    },
+    {
+      "domain": "visa-dailoan.com",
+      "url": "https://visa-dailoan.com",
+      "type": "visa-country",
+      "country": "TW",
+      "nameVi": "Visa Đài Loan",
+      "nameEn": "Taiwan Visa",
+      "launched": "2026-10-11"
     }
   ]
 }

@@ -157,6 +157,8 @@ Cập nhật danh sách khi có site mới.
   `visa-hongkong-hub` (go-live 10/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visa-trungquoc.com` — site Trung Quốc, repo `visa-trungquoc-hub`, Vercel project
   `visa-trungquoc-hub` (go-live 10/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visa-dailoan.com` — site Đài Loan, repo `visa-dailoan-hub`, Vercel project
+  `visa-dailoan-hub` (go-live 11/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 
