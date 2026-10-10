@@ -155,6 +155,8 @@ Cập nhật danh sách khi có site mới.
   `visa-hanquoc-hub` (go-live 10/10/2026; tên miền cũ `visa-hanquoc.com` 301 về đây). Cùng cách đồng bộ như `visa-anh.com`.
 - `visahongkong.vn` — site Hồng Kông, repo `visa-hongkong-hub`, Vercel project
   `visa-hongkong-hub` (go-live 10/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visa-trungquoc.com` — site Trung Quốc, repo `visa-trungquoc-hub`, Vercel project
+  `visa-trungquoc-hub` (go-live 10/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 
 ## Lưu ý
 

@@ -142,6 +142,15 @@
       "nameVi": "Visa Hồng Kông",
       "nameEn": "Hong Kong Visa",
       "launched": "2026-10-10"
+    },
+    {
+      "domain": "visa-trungquoc.com",
+      "url": "https://visa-trungquoc.com",
+      "type": "visa-country",
+      "country": "CN",
+      "nameVi": "Visa Trung Quốc",
+      "nameEn": "China Visa",
+      "launched": "2026-10-10"
     }
   ]
 }
