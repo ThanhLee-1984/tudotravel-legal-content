@@ -133,6 +133,15 @@
       "nameVi": "Visa Hàn Quốc",
       "nameEn": "Korea Visa",
       "launched": "2026-10-10"
+    },
+    {
+      "domain": "visahongkong.vn",
+      "url": "https://visahongkong.vn",
+      "type": "visa-country",
+      "country": "HK",
+      "nameVi": "Visa Hồng Kông",
+      "nameEn": "Hong Kong Visa",
+      "launched": "2026-10-10"
     }
   ]
 }
