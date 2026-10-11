@@ -160,6 +160,15 @@
       "nameVi": "Visa Đài Loan",
       "nameEn": "Taiwan Visa",
       "launched": "2026-10-11"
+    },
+    {
+      "domain": "visaando.vn",
+      "url": "https://visaando.vn",
+      "type": "visa-country",
+      "country": "IN",
+      "nameVi": "Visa Ấn Độ",
+      "nameEn": "India Visa",
+      "launched": "2026-10-11"
     }
   ]
 }
