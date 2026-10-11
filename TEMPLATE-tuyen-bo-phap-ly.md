@@ -34,6 +34,7 @@ trúc**, không phải văn bản để sao chép.
 | `address.*` | 2 (đơn vị kiểm soát dữ liệu), 3. Bản đầy đủ dùng `addressLocality`; chỗ hẹp (footer, liên hệ) dùng `addressLocalityShort` |
 | `privacyContactEmail` | 1, 2 — kênh nhận khiếu nại/yêu cầu dữ liệu |
 | `dataProtectionLaw.name` / `.effectiveDate` | 2 |
+| `dataProtectionLaw.nameEn` | Chỉ khi site có bản tiếng Anh (câu đồng ý form, chính sách bảo mật tiếng Anh) — anh Thạnh duyệt 12/10/2026 |
 | `foundingDate` | Không bắt buộc trong 3 tuyên bố; dùng cho trang Giới thiệu/schema |
 
 **Không có trong `company-profile.json`** (mỗi site tự cấu hình, không hardcode
