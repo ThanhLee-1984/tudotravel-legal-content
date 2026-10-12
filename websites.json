@@ -99,6 +99,15 @@
       "launched": "2026-10-02"
     },
     {
+      "domain": "visathuysi.com",
+      "url": "https://visathuysi.com",
+      "type": "visa-country",
+      "country": "CH",
+      "nameVi": "Visa Thụy Sĩ",
+      "nameEn": "Switzerland Visa",
+      "launched": "2026-10-02"
+    },
+    {
       "domain": "visathuydien.com",
       "url": "https://visathuydien.com",
       "type": "visa-country",
