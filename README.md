@@ -145,6 +145,8 @@ Cập nhật danh sách khi có site mới.
   (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visanauy.com` — site Na Uy, repo `visa-nauy-hub`, Vercel project `visa-nauy-hub`
   (go-live 02/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
+- `visathuysi.com` — site Thụy Sĩ, repo `visa-thuysi-hub`, Vercel project `visa-thuysi-hub`
+  (go-live 02/10/2026; bổ sung 12/10/2026 — sót ở Phiên 10). Cùng cách đồng bộ như `visa-anh.com`.
 - `visathuydien.com` — site Thụy Điển, repo `visa-thuydien-hub`, Vercel project
   `visa-thuydien-hub` (go-live 03/10/2026). Cùng cách đồng bộ như `visa-anh.com`.
 - `visa-uc.com` — site Úc, repo `visa-uc-hub`, Vercel project `visa-uc-hub`
