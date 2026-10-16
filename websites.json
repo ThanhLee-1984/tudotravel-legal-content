@@ -178,6 +178,31 @@
       "nameVi": "Visa Ấn Độ",
       "nameEn": "India Visa",
       "launched": "2026-10-11"
+    },
+    {
+      "domain": "visatovietnam.vn",
+      "url": "https://visatovietnam.vn",
+      "type": "visa-vietnam",
+      "country": "VN",
+      "nameVi": "Visa Việt Nam cho người nước ngoài",
+      "nameEn": "Vietnam Visa",
+      "launched": "2026-10-12"
+    },
+    {
+      "domain": "visahochieu.com.vn",
+      "url": "https://visahochieu.com.vn",
+      "type": "visa-guide",
+      "nameVi": "Hộ chiếu và visa",
+      "nameEn": "Passport and visa guide",
+      "launched": "2026-10-13"
+    },
+    {
+      "domain": "baohiem-dulich.vn",
+      "url": "https://baohiem-dulich.vn",
+      "type": "travel-insurance",
+      "nameVi": "Bảo hiểm du lịch",
+      "nameEn": "Travel insurance",
+      "launched": "2026-10-16"
     }
   ]
 }

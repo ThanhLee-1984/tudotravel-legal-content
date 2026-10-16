@@ -105,7 +105,7 @@ liên kết giữa các site theo quy tắc `docs/nhan-ban/LIEN-KET-MANG-LUOI.md
 | `company.url`, `company.primaryDomain` | Website chính của công ty: **dulichtudo.vn** |
 | `company.otherDomains` | Tên miền khác của công ty (dulichtudo.com) |
 | `company.emailDomain` | **Mọi site chỉ dùng email liên hệ trên `dulichtudo.vn`** (nhất quán; anh Thạnh chốt 30/09/2026) — không dùng email theo tên miền của từng site |
-| `sites[]` | Mỗi site: `domain` (đúng host chính, có/không `www`), `url`, `type` (`visa-country`…), `country` (ISO), `nameVi`, `nameEn`, `launched` (ngày go-live) |
+| `sites[]` | Mỗi site: `domain` (đúng host chính, có/không `www`), `url`, `type` (`visa-country` = hub visa 1 nước; site vai trò riêng: `visa-vietnam` visatovietnam.vn, `visa-guide` visahochieu.com.vn, `travel-insurance` baohiem-dulich.vn. Khung hub chỉ đọc `visa-country`), `country` (ISO), `nameVi`, `nameEn`, `launched` (ngày go-live) |
 
 Quy tắc:
 
